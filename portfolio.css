@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    background-color: #ffb698;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+}
+
+/* NAV BAR */
+
+nav li{
+    display: inline;
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+}
+nav ul {
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 100%;
+    padding: 15px;
+    list-style-type: none;
+
+}
+nav {
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
+/* HEADERS */
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+h3 {
+    font-family: cursive;
+}
+
+/* PARAGRAPH TEXT*/
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* IMAGES */
+
+.my-image{
+    background-image:url("../images/sunset.jpg");
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.my-image-text{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main {
+    width: 75%;
+    float: left;
+    height: 100%;
+}
+
+
+#side {
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#aboutme {
+    width: 75%;
+
+}
+
+#gaming{
+    width: 80%;
+    object-fit: none;
+    object-position: center;
+}
+
+#coding {
+    width: 80%;
+}
+
+#me {
+    width: 100%;
+    border-radius:50%;
+    border: 5px;
+}
+
+/* PROFILE TEXT */
+
+#profile{
+    text-align: center;
+}
+
+
+/* ARTICLE STYLING */
+
+
+.side-article ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.side-article, .main-article{
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.side-article {
+    background-color:rgb(216, 183, 126) ;
+
+}
+
+.main-article {
+    background-color: rgb(217, 222, 131);
+}
+
+
+
